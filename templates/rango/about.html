@@ -3,21 +3,18 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Rango</title>
+    <title>About</title>
     <link rel="stylesheet" href="{% static "css/base.css" %}">
     <!-- css link -->
     <script src="{% static "js/jquery.js" %}"></script>
     <!-- js link -->
+
 </head>
 <body>
-    <h1>Rango says...</h1>
     <div>
-        hey there partner! <br/>
-        <strong>{{ boldmessege }}</strong>
-    </div>
-    <div>
-        <a href="/rango/about/">About</a><br/>
-        <img src="{% static "images/rango.jpg"%}" alt="Picture of Rango" height=40% width=40%>
+        <strong>{{ boldmessege }}</strong><br/>
+        <a href="/rango/">main</a><br/>
+        <img src="{% static "images/list.jpg"%}" alt="List of tasks" height=50% width=50%>
     </div>
 
 </body>
